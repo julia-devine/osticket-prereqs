@@ -1,55 +1,105 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+  <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket Logo" width="250"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1 align="center">osTicket Installation Guide</h1>
+<p align="center">
+  Step-by-step tutorial for setting up the open-source ticketing system <strong>osTicket</strong> on a Windows environment.
+</p>
 
+---
 
-<h2>Video Demonstration</h2>
+## 📺 Video Demonstration
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+- ▶️ [How To Install osTicket with Prerequisites](https://www.youtube.com) *(YouTube)*
 
-<h2>Environments and Technologies Used</h2>
+---
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+## 🧰 Technologies and Environments Used
 
-<h2>Operating Systems Used </h2>
+- **Microsoft Azure** – Virtual Machines / Compute
+- **Remote Desktop Protocol (RDP)**
+- **Internet Information Services (IIS)**
+- **PHP, MySQL**
+- **osTicket**
 
-- Windows 10</b> (21H2)
+---
 
-<h2>List of Prerequisites</h2>
+## 🖥️ Operating System
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- **Windows 10** (Version 21H2)
 
-<h2>Installation Steps</h2>
+---
 
+## ✅ Prerequisites
+
+Ensure the following are installed or set up prior to osTicket installation:
+
+1. Microsoft Web Platform Installer
+2. Internet Information Services (IIS)
+3. PHP Manager for IIS
+4. MySQL Database Server
+5. osTicket Installation Files
+
+---
+
+## ⚙️ Installation Steps
+
+Below are the general steps to install and configure osTicket. Replace the placeholder text with real steps if needed.
+
+### Step 1: Setup Windows VM and Enable IIS
+
+<p align="center">
+  <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="Enabling IIS"/>
+</p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Start by creating a Windows VM on Azure. Use the Server Manager to enable IIS and install required roles and features.
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+---
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+### Step 2: Install PHP and Configure IIS
+
+<p align="center">
+  <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="Installing PHP"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Use the Web Platform Installer to install PHP and the necessary IIS extensions. Ensure PHP Manager is properly configured.
 </p>
-<br />
+
+---
+
+### Step 3: Install and Configure MySQL
+
+<p align="center">
+  <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="MySQL Configuration"/>
+</p>
+<p>
+Download and install MySQL Server. Create a database and user account specifically for osTicket.
+</p>
+
+---
+
+### Step 4: Download and Install osTicket
+
+> Replace this section with a real screenshot of the osTicket installation page when available.
+
+1. Download osTicket from the official website.
+2. Extract files into `C:\inetpub\wwwroot\osTicket`.
+3. Run the setup from your browser via `http://localhost/osTicket`.
+
+---
+
+### Step 5: Final Configuration and Test
+
+- Complete the web-based setup.
+- Assign proper file permissions.
+- Verify that tickets can be created and emails are functioning.
+
+---
+
+## 📬 Contact & Portfolio
+
+> Replace this with your actual contact info or GitHub/LinkedIn profile links.
+
+---
