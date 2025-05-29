@@ -9,12 +9,6 @@
 
 ---
 
-## 📺 Video Demonstration
-
-- ▶️ [How To Install osTicket with Prerequisites](https://www.youtube.com) *(YouTube)*
-
----
-
 ## 🧰 Technologies and Environments Used
 
 - **Microsoft Azure** – Virtual Machines / Compute
