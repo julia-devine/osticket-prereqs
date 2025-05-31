@@ -41,13 +41,12 @@ Ensure the following are installed or set up prior to osTicket installation:
 
 Below are the general steps to install and configure osTicket. Replace the placeholder text with real steps if needed.
 
-### Step 1: Setup Windows VM and Enable IIS
-
+### Step 1: Download the https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
 <p align="center">
   <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="Enabling IIS"/>
 </p>
 <p>
-Start by creating a Windows VM on Azure. Use the Server Manager to enable IIS and install required roles and features.
+Start by creating a Windows VM on Azure.
 </p>
 
 ---
