@@ -9,7 +9,7 @@
 
 ---
 
-## 🧰 Technologies and Environments Used
+##  Technologies and Environments Used
 
 - **Microsoft Azure** – Virtual Machines / Compute
 - **Remote Desktop Protocol (RDP)**
@@ -19,13 +19,13 @@
 
 ---
 
-## 🖥️ Operating System
+##  Operating System
 
 - **Windows 10** (Version 21H2)
 
 ---
 
-## ✅ Prerequisites
+##  Prerequisites
 
 Ensure the following are installed or set up prior to osTicket installation:
 
@@ -37,7 +37,7 @@ Ensure the following are installed or set up prior to osTicket installation:
 
 ---
 
-## ⚙️ Installation Steps
+##  Installation Steps
 
 Below are the general steps to install and configure osTicket. Replace the placeholder text with real steps if needed.
 
@@ -92,7 +92,7 @@ Download and install MySQL Server. Create a database and user account specifical
 
 ---
 
-## 📬 Contact & Portfolio
+##  Contact & Portfolio
 
 > Replace this with your actual contact info or GitHub/LinkedIn profile links.
 
