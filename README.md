@@ -53,7 +53,7 @@ Right click the file named "osTicket-Installation-Files" and extract the file to
 
 ---
 
-### Step 2: Download the [osTicket-installation-files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and Unzip the File Onto Your Desktop
+### Step 2: Download the [osTicket-installation-files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and Unzip It Onto Your Desktop
 
 <p align="center">
   <img src="https://i.imgur.com/NTmTyX2.png" width="80%" alt="Installing PHP"/>
