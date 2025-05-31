@@ -41,23 +41,26 @@ Ensure the following are installed or set up prior to osTicket installation:
 
 Below are the general steps to install and configure osTicket. Replace the placeholder text with real steps if needed.
 
-### Step 1: Download the [osTicket-installation-files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it onto your desktop.
+### Step 1: Create an Azure Virtual Machine
 <p align="center">
-  <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="Enabling IIS"/>
+  <img src="https://i.imgur.com/NTmTyX2.png" width="80%" alt="Enabling IIS"/>
 </p>
 <p>
-Start by creating a Windows VM on Azure.
+First, click on the link above to be directed to the download. Google will ask if you would like to download this file, click "Download anyway". Once the file is downloaded, click the manila folder in the top right.
+Right click the file named "osTicket-Installation-Files" and extract the file to your desktop.
+
 </p>
 
 ---
 
-### Step 2: Install PHP and Configure IIS
+### Step 2: Download the [osTicket-installation-files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and Unzip the File Onto Your Desktop
 
 <p align="center">
-  <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="Installing PHP"/>
+  <img src="https://i.imgur.com/NTmTyX2.png" width="80%" alt="Installing PHP"/>
 </p>
 <p>
-Use the Web Platform Installer to install PHP and the necessary IIS extensions. Ensure PHP Manager is properly configured.
+First, click on the link above to be directed to the download. Google will ask if you would like to download this file, click "Download anyway". Once the file is downloaded, click the manila folder in the top right.
+Right click the file named "osTicket-Installation-Files" and extract the file to your desktop.
 </p>
 
 ---
