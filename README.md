@@ -41,7 +41,7 @@ Ensure the following are installed or set up prior to osTicket installation:
 
 Below are the general steps to install and configure osTicket. Replace the placeholder text with real steps if needed.
 
-### Step 1: Download the https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
+### Step 1: Download the 
 <p align="center">
   <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="Enabling IIS"/>
 </p>
