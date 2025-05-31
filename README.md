@@ -46,9 +46,15 @@ Below are the general steps to install and configure osTicket. Replace the place
   <img src="https://i.imgur.com/NTmTyX2.png" width="80%" alt="Enabling IIS"/>
 </p>
 <p>
-First, click on the link above to be directed to the download. Google will ask if you would like to download this file, click "Download anyway". Once the file is downloaded, click the manila folder in the top right.
-Right click the file named "osTicket-Installation-Files" and extract the file to your desktop.
-
+Within Azure, click on "virtual machines" at the top of the home page. Next, click the "Create" button at the top right of your screen and select "Virtual machine." 
+Next, input your project details. 
+<ul>
+<li>Under resource groups, create a new one for this project.</li>
+<li>Under Image, select "Windows 10 Pro, Version 22H2 - x64 Gen2."</li>
+<li>Under size, select 2 vcpus.</li>
+<li>At the bottom check the licensing box.</li>
+</ul>
+You can give your virtual machine any name you would like. I would suggest documenting the username and password you create for your virtual machine, as we will need them to log in later.
 </p>
 
 ---
@@ -59,7 +65,7 @@ Right click the file named "osTicket-Installation-Files" and extract the file to
   <img src="https://i.imgur.com/NTmTyX2.png" width="80%" alt="Installing PHP"/>
 </p>
 <p>
-First, click on the link above to be directed to the download. Google will ask if you would like to download this file, click "Download anyway". Once the file is downloaded, click the manila folder in the top right.
+First, copy this link into the browser on the virtual machine you created in step 1. Google will ask if you would like to download this file, click "Download anyway." Once the file is downloaded, click the manila folder in the top right.
 Right click the file named "osTicket-Installation-Files" and extract the file to your desktop.
 </p>
 
