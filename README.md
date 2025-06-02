@@ -46,7 +46,7 @@ Below are the general steps to install and configure osTicket. Replace the place
   <img src="https://i.imgur.com/UucYORd.png" width="80%" alt="Enabling IIS"/>
 </p>
 <p>
-Within Azure, click on "virtual machines" at the top of the home page. Next, click the "Create" button at the top right of your screen and select "Virtual machine." 
+Within Azure, click "virtual machines" at the top of the home page. Next, click the "Create" button at the top right of your screen and select "Virtual machine." 
 Next, input your project details. 
 <ul>
 <li>Under resource groups, create a new one for this project.</li>
