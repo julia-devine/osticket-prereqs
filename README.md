@@ -80,8 +80,8 @@ Then, enter the username and password you created for your virtual machine and c
 First, copy this link into the browser on the virtual machine you created in step 1. Google will ask if you would like to download this file, click "Download anyway." 
 </p>
 <p>
-Once the file is downloaded, click the manila folder in the top right.
-Right click the file named "osTicket-Installation-Files" and extract the file to your desktop.
+Once the file is downloaded, click the manila folder in the top right,
+right click the file named "osTicket-Installation-Files," and extract the file to your desktop.
 </p>
 
 ---
