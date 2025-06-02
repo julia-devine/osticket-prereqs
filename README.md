@@ -77,7 +77,7 @@ Then, enter the username and password you created for your virtual machine and c
   <img src="https://i.imgur.com/NTmTyX2.png" width="80%" alt="Installing PHP"/>
 </p>
 <p>
-First, copy this link into the browser on the virtual machine you created in step 1. Google will ask if you would like to download this file, click "Download anyway." 
+First, copy this link into the browser on the virtual machine you created in step 1. Your browser will ask if you would like to download this file, click "Download anyway." 
 </p>
 <p>
 Once the file is downloaded, click the manila folder in the top right,
