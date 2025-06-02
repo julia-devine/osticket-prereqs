@@ -59,6 +59,8 @@ Then click "Review + create" in the bottom right of your screen, and click "crea
 Once your virtual machine has been created you can remotely connect to it.
 First, open the "Remote Desktop Connection" application, which you can find by searching for it in the start menu.
 Next, within Azure view your virtual machine and copy it's public ip address on the right side of the screen. Paste the address into the Remote Desktop Connection application and click "connect."
+Then, enter the username and password you created for your virtual machine and click "connect."
+
 
 
 </p>
