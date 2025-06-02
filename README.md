@@ -97,7 +97,7 @@ Within your virtual machine, open the start menu and open Control Panel. Click "
 <p align="center">
   <img src="https://i.imgur.com/Pivdke3.png" width="80%" alt="Installing PHP"/>
 <p>
-  Click on "Turn Windows features on or off" on the left side of the screen.
+  Click "Turn Windows features on or off" on the left side of the screen.
 </p>
 <p align="center">
   <img src="https://i.imgur.com/cSUnM8k.png" width="80%" alt="Installing PHP"/>
