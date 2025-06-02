@@ -89,7 +89,7 @@ Right click the file named "osTicket-Installation-Files" and extract the file to
   <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="MySQL Configuration"/>
 </p>
 <p>
-Download and install MySQL Server. Create a database and user account specifically for osTicket.
+Within your virtual machine, open the start menu and open Control Panel.
 </p>
 
 ---
