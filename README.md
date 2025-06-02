@@ -77,22 +77,38 @@ Then, enter the username and password you created for your virtual machine and c
   <img src="https://i.imgur.com/NTmTyX2.png" width="80%" alt="Installing PHP"/>
 </p>
 <p>
-First, copy this link into the browser on the virtual machine you created in step 1. Google will ask if you would like to download this file, click "Download anyway." Once the file is downloaded, click the manila folder in the top right.
+First, copy this link into the browser on the virtual machine you created in step 1. Google will ask if you would like to download this file, click "Download anyway." 
+</p>
+<p>
+Once the file is downloaded, click the manila folder in the top right.
 Right click the file named "osTicket-Installation-Files" and extract the file to your desktop.
 </p>
 
 ---
 
-### Step 3: Install and Configure MySQL
+### Step 3: Install / Enable IIS in Windows
 
 <p align="center">
-  <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="MySQL Configuration"/>
+  <img src="https://i.imgur.com/nEFFoR7.png" width="80%" alt="Installing PHP"/>
 </p>
 <p>
-Within your virtual machine, open the start menu and open Control Panel.
+Within your virtual machine, open the start menu and open Control Panel. Click "Uninstall a program."
 </p>
+<p align="center">
+  <img src="https://i.imgur.com/Pivdke3.png" width="80%" alt="Installing PHP"/>
+<p>
+  Click on "Turn Windows features on or off" on the left side of the screen.
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/cSUnM8k.png" width="80%" alt="Installing PHP"/>
+<p>
+Check the "Internet Information Services" box and expand it by clicking on the plus sign to the left of the box.
+</p>
+<p>
+Expand "World Wide Web Services."
+</p>
+Expand "Application Development Features" and check the box next to "CGI." Then click "OK."
 
----
 
 ### Step 4: Download and Install osTicket
 
