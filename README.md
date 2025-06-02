@@ -55,14 +55,18 @@ Next, input your project details.
 <li>At the bottom check the licensing box.</li>
 </ul>
 You can give your virtual machine any name you would like. I would suggest documenting the username and password you create for your virtual machine, as we will need them to log in later.
+</p>
+<p>
 Then click "Review + create" in the bottom right of your screen, and click "create" in the bottom right of the next screen.
 Once your virtual machine has been created you can remotely connect to it.
+</p>
+<p>
 First, open the "Remote Desktop Connection" application, which you can find by searching for it in the start menu.
-Next, within Azure view your virtual machine and copy it's public ip address on the right side of the screen. Paste the address into the Remote Desktop Connection application and click "connect."
+</p>
+<p>
+Next, within Azure, view your virtual machine and copy it's public ip address on the right side of the screen. Paste the address into the Remote Desktop Connection application and click "connect."
+</p>
 Then, enter the username and password you created for your virtual machine and click "connect."
-
-
-
 </p>
 
 ---
