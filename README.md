@@ -46,7 +46,7 @@ Within Azure, click "virtual machines" at the top of the home page. Next, click 
 Next, input your project details. 
 <ul>
 <li>Under resource groups, create a new one for this project.</li>
-<li>Under Image, select "Windows 10 Pro, Version 22H2 - x64 Gen2."</li>`
+<li>Under Image, select "Windows 10 Pro, Version 22H2 - x64 Gen2."</li>
 <li>Under size, select 2 vcpus.</li>
 <li>At the bottom check the licensing box.</li>
 </ul>
