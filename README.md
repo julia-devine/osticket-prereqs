@@ -7,11 +7,6 @@
   Step-by-step tutorial for setting up the open-source ticketing system <strong>osTicket</strong> on a Windows environment.
 </p>
 
-<div>
-  <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket Logo" width="250"/>
-  <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket Logo" width="250"/>
-</div>
-
 ---
 
 ##  Technologies and Environments Used
@@ -44,8 +39,7 @@ Ensure the following are installed or set up prior to osTicket installation:
 
 ##  Installation Steps
 
-Below are the general steps to install and configure osTicket. Replace the placeholder text with real steps if needed.
-
+Below are the general steps to install and configure osTicket.
 ### Step 1: Create an Azure Virtual Machine
 <p align="center">
   <img src="https://i.imgur.com/UucYORd.png" width="80%" alt="Enabling IIS"/>
