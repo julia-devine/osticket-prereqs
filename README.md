@@ -41,9 +41,6 @@ Ensure the following are installed or set up prior to osTicket installation:
 
 Below are the general steps to install and configure osTicket.
 ### Step 1: Create an Azure Virtual Machine
-<p align="center">
-  <img src="https://i.imgur.com/UucYORd.png" width="80%" alt="Enabling IIS"/>
-</p>
 <p>
 Within Azure, click "virtual machines" at the top of the home page. Next, click the "Create" button at the top right of your screen and select "Virtual machine." 
 Next, input your project details. 
@@ -67,14 +64,13 @@ Next, within Azure, view your virtual machine and copy it's public ip address on
 </p>
 Then, enter the username and password you created for your virtual machine and click "connect."
 </p>
-
+<p align="center">
+  <img src="https://i.imgur.com/UucYORd.png" width="80%" alt="Enabling IIS"/>
+</p>
 ---
 
 ### Step 2: Download the [osTicket-installation-files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and Unzip It Onto Your Desktop
 
-<p align="center">
-  <img src="https://i.imgur.com/NTmTyX2.png" width="80%" alt="Installing PHP"/>
-</p>
 <p>
 First, copy this link into the browser on the virtual machine you created in step 1. Your browser will ask if you would like to download this file, click "Download anyway." 
 </p>
@@ -82,7 +78,9 @@ First, copy this link into the browser on the virtual machine you created in ste
 Once the file is downloaded, click the manila folder in the top right,
 right click the file named "osTicket-Installation-Files," and extract the file to your desktop.
 </p>
-
+<p align="center">
+  <img src="https://i.imgur.com/NTmTyX2.png" width="80%" alt="Installing PHP"/>
+</p>
 ---
 
 ### Step 3: Install / Enable IIS in Windows
