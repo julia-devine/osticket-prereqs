@@ -1,4 +1,3 @@
-<link href="style.css" rel="stylesheet"/>
 <p align="center">
   <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket Logo" width="250"/>
 </p>
@@ -8,7 +7,7 @@
   Step-by-step tutorial for setting up the open-source ticketing system <strong>osTicket</strong> on a Windows environment.
 </p>
 
-<div style="ment-div">
+<div>
   <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket Logo" width="250"/>
   <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket Logo" width="250"/>
 </div>
