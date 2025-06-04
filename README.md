@@ -116,6 +116,7 @@ Once your virtual machine has been created you can remotely connect to it.
 <p>
 
 ### Step 4: Download and Install osTicket
+https://i.imgur.com/CmbLzbt.png
 
 > Replace this section with a real screenshot of the osTicket installation page when available.
 
