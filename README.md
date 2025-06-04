@@ -72,11 +72,11 @@ Then, enter the username and password you created for your virtual machine and c
 ### Step 2: Download the [osTicket-installation-files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and Unzip It Onto Your Desktop
 
 <p>
-First, copy this link into the browser on the virtual machine you created in step 1. Your browser will ask if you would like to download this file, click "Download anyway." 
-</p>
-<p>
-Once the file is downloaded, click the manila folder in the top right,
-right click the file named "osTicket-Installation-Files," and extract the file to your desktop.
+<ul>
+<li>First, copy this link into the browser on the virtual machine you created in step 1. Your browser will ask if you would like to download this file, click "Download anyway."</li>
+<li>Once the file is downloaded, click the manila folder in the top right.</li>
+<li>Right click the file named "osTicket-Installation-Files" and extract the file to your desktop</li>
+</ul>
 </p>
 <p align="center">
   <img src="https://i.imgur.com/NTmTyX2.png" width="80%" alt="Installing PHP"/>
@@ -85,27 +85,31 @@ right click the file named "osTicket-Installation-Files," and extract the file t
 
 ### Step 3: Install / Enable IIS in Windows
 
+<p>
+<ul>
+<li>Within your virtual machine, open the start menu and open Control Panel.</li>
+<li>Under Programs select Uninstall a program.</li>
+</ul>
+</p>
 <p align="center">
   <img src="https://i.imgur.com/nEFFoR7.png" width="80%" alt="Installing PHP"/>
 </p>
-<p>
-Within your virtual machine, open the start menu and open Control Panel. Click "Uninstall a program."
+<ul>
+<li>Select "Turn Windows features on or off" on the left side of the screen.</li>
+</ul>
 </p>
 <p align="center">
   <img src="https://i.imgur.com/Pivdke3.png" width="80%" alt="Installing PHP"/>
 <p>
-  Click "Turn Windows features on or off" on the left side of the screen.
+  <ul>
+  <li>Check the "Internet Information Services" box > World Wide Web Services > Application Development Features and check the box next to CGI.</li>
+  <li>  Click OK</li>
+  </ul>
 </p>
+
 <p align="center">
   <img src="https://i.imgur.com/cSUnM8k.png" width="80%" alt="Installing PHP"/>
 <p>
-Check the "Internet Information Services" box and expand it by clicking on the plus sign to the left of the box.
-</p>
-<p>
-Expand "World Wide Web Services."
-</p>
-Expand "Application Development Features" and check the box next to "CGI." Then click "OK."
-
 
 ### Step 4: Download and Install osTicket
 
