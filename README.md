@@ -118,21 +118,27 @@ Once your virtual machine has been created you can remotely connect to it.
 ### Step 4: Install PHP Manager and the Rewrite Module
 <p>
   <ul>
-   <li>In the osTicket-Installation-Files folder double click PHPManagerForIIS_V1.5.0 and follow the steps to install PHP Manager.</li>
-   <li>Repeat the same steps for rewrite_amd64_en-US. </li>
+   <li>In the osTicket-Installation-Files folder double click "PHPManagerForIIS_V1.5.0" and follow the steps to install PHP Manager.</li>
+   <li>Repeat the same steps for "rewrite_amd64_en-US." </li>
   </ul>
 </p>
 <p align="center">
   <img src="https://i.imgur.com/CmbLzbt.png" width="80%" alt="Installing PHP"/>
 <p>
 
-1. Download osTicket from the official website.
-2. Extract files into `C:\inetpub\wwwroot\osTicket`.
-3. Run the setup from your browser via `http://localhost/osTicket`.
-
 ---
 
-### Step 5: Final Configuration and Test
+### Step 5: Unzip the "php-7.3.8-nts-Win32-VC15-x86.zip" Folder Into the "C:\PHP" Folder
+In order to complete this step we first need to create a "PHP" folder in our C Drive.
+<p>
+  <ul>
+    <li>Open a new file explorer tab by right clicking the manila folder in your taskbar. Click "File Explorer."</li>
+    <li>On the left side of the screen click Windows (C:).</li>
+    <li>Right click anywhere within the File Explorer window and click New > Folder and name the folder "PHP."</li>
+  </ul>
+  <p align="center">
+  <img src="https://i.imgur.com/PTm0AQv.png" width="80%" alt="Installing PHP"/>
+</p>
 
 - Complete the web-based setup.
 - Assign proper file permissions.
