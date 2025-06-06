@@ -146,6 +146,7 @@ In order to complete this step we first need to create a "PHP" folder in our C D
 ---
 ### Step 6: Install VC_redist.x86.exe and MySQL 5.5.62
 <p>
+  MySQL is a database that osTicket will use to store all of our data, such as user accounts and ticketing information.
   <ul>
     <li>In the osTicket-Installation-Files folder double click "VC_redist.x86.exe" and follow the installation steps.</li>
     <li>In the osTicket-Installation-Files folder double click mysql-5.5.62-win32.msi. Select Next > Next > Typical > Install.</li>
