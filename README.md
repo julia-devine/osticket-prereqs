@@ -128,7 +128,7 @@ Once your virtual machine has been created you can remotely connect to it.
 
 ---
 
-### Step 5: Unzip the "php-7.3.8-nts-Win32-VC15-x86.zip" Folder Into the "C:\PHP" Folder
+### Step 5: Unzip the "php-7.3.8-nts-Win32-VC15-x86.zip" Folder Into the "C:\PHP" Directory
 In order to complete this step we first need to create a "PHP" folder in our C Drive.
 <p>
   <ul>
@@ -136,17 +136,23 @@ In order to complete this step we first need to create a "PHP" folder in our C D
     <li>On the left side of the screen click Windows (C:).</li>
     <li>Right click anywhere within the File Explorer window and click New > Folder and name the folder "PHP."</li>
   </ul>
+  </p>
   <p align="center">
   <img src="https://i.imgur.com/PTm0AQv.png" width="80%" alt="Installing PHP"/>
+<p>
+    <li>Back in the osTicket-Installation-Files folder right click the php-7.3.8-nts-Win32-VC15-x86.zip folder and extract it to the "C:\PHP" folder you created previously.</li>
 </p>
 
-- Complete the web-based setup.
-- Assign proper file permissions.
-- Verify that tickets can be created and emails are functioning.
-
 ---
-
-##  Contact & Portfolio
+### Step 6: Install VC_redist.x86.exe and MySQL 5.5.62
+<p>
+  <ul>
+    <li>In the osTicket-Installation-Files folder double click "VC_redist.x86.exe" and follow the installation steps.</li>
+    <li>In the osTicket-Installation-Files folder double click mysql-5.5.62-win32.msi. Select Next > Next > Typical > Install.</li>
+  </ul>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/oMr1grm.png" width="80%" alt="Installing PHP"/>
 
 > Replace this with your actual contact info or GitHub/LinkedIn profile links.
 
