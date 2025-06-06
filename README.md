@@ -63,7 +63,7 @@ Once your virtual machine has been created you can remotely connect to it.
 </p>
 <p>
 <ul>
-<li>Open the Remote Desktop Connection application,</li>
+<li>Open the Remote Desktop Connection application</li>
 <li>Within Azure, view your virtual machine and copy it's public ip address on the right side of the screen, and Paste the address into the Remote Desktop Connection application and click connect.</li>
 <li>Enter the username and password you created for your virtual machine and click connect.</li>
 </ul>
@@ -88,7 +88,7 @@ Once your virtual machine has been created you can remotely connect to it.
 ---
 
 ### Step 3: Install / Enable IIS in Windows
-
+<p>Internet Information Services (IIS) is a web server software that will provide us with the environment to host web applications such as osTicket, while allowing users access via a web browser.</p>
 <p>
 <ul>
 <li>Within your virtual machine, open the start menu and open Control Panel.</li>
@@ -115,10 +115,16 @@ Once your virtual machine has been created you can remotely connect to it.
   <img src="https://i.imgur.com/cSUnM8k.png" width="80%" alt="Installing PHP"/>
 <p>
 
-### Step 4: Download and Install osTicket
-https://i.imgur.com/CmbLzbt.png
-
-> Replace this section with a real screenshot of the osTicket installation page when available.
+### Step 4: Install PHP Manager and the Rewrite Module
+<p>
+  <ul>
+   <li>In the osTicket-Installation-Files folder double click PHPManagerForIIS_V1.5.0 and follow the steps to install PHP Manager.</li>
+   <li>Repeat the same steps for rewrite_amd64_en-US. </li>
+  </ul>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/CmbLzbt.png" width="80%" alt="Installing PHP"/>
+<p>
 
 1. Download osTicket from the official website.
 2. Extract files into `C:\inetpub\wwwroot\osTicket`.
