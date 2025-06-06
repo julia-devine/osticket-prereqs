@@ -150,11 +150,12 @@ In order to complete this step we first need to create a "PHP" folder in our C D
   <ul>
     <li>In the osTicket-Installation-Files folder double click "VC_redist.x86.exe" and follow the installation steps.</li>
     <li>In the osTicket-Installation-Files folder double click mysql-5.5.62-win32.msi. Select Next > Next > Typical > Install.</li>
+    <li>Once installed you will be prompted to finish the setup. Before you click "Finish," check the box labeled "Launch the MySQL Instance Configuration Wizard" > Finish. The configuration Wizard should automatically launch.</li>
   </ul>
 </p>
 <p align="center">
-  <img src="https://i.imgur.com/oMr1grm.png" width="80%" alt="Installing PHP"/>
+  <img src="https://i.imgur.com/8XsXRaU.png" width="80%" alt="Installing PHP"/>
 
-> Replace this with your actual contact info or GitHub/LinkedIn profile links.
+
 
 ---
