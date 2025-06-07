@@ -159,7 +159,11 @@ In order to complete this step we first need to create a "PHP" folder in our C D
 <p>
   <ul>
     <li>Winthin the Configuration Wizard select Next > Standard Configuration > Next > Next.</li>
-    <li>On the next screen you are prompted to enter a password. You may chose any password you would like. I would suggest documenting the password as it will be used for both the username and password.</li>
+  </ul>
+  On the next screen you are prompted to enter a password. You may chose any password you would like. I would suggest documenting the password as it will be used for both the username and password.
+</p>
+<p>
+  <ul>
     <li>Click Next > Execute > Finish.</li>
   </ul>
 </p>
