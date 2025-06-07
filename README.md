@@ -169,7 +169,7 @@ In order to complete this step we first need to create a "PHP" folder in our C D
 ### Step 7: Configure PHP
 <p>
   <ul>
-    <li>Search for IIS in your start menu.</li>
+    <li>Search for IIS in the start menu.</li>
     <li>Right click IIS and "Run as administrator."</li>
      </ul>
 </p>
@@ -182,6 +182,18 @@ Next, we are going to register PHP from within IIS, making the web server aware 
 </p>
 <p align="center">
   <img src="https://i.imgur.com/DExwFsE.png" width="80%" alt="Installing PHP"/>
+<p>
+Finally, we are going to reload the web server.
+  <ul>
+    <li>On the left side of the screen click "osticket-vm (osticket-vm\Juliadevine). (The name of your vm will vary)</li>
+    <li>On the right side of the screen click stop. Once it has fully stopped click start.</li>
+  </ul>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/8sJSUs9.png" width="80%" alt="Installing PHP"/>
+    <li></li>
+  </ul>
+</p>
 
 
 
