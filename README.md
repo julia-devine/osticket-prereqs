@@ -144,6 +144,7 @@ In order to complete this step we first need to create a "PHP" folder in our C D
 </p>
 
 ---
+
 ### Step 6: Install VC_redist.x86.exe and MySQL 5.5.62
 <p>
   MySQL is a database that osTicket will use to store all of our data, such as user accounts and ticketing information.
@@ -163,6 +164,24 @@ In order to complete this step we first need to create a "PHP" folder in our C D
   </ul>
 </p>
 
+---
+
+### Step 7: Configure PHP
+<p>
+  <ul>
+    <li>Search for IIS in your start menu.</li>
+    <li>Right click IIS and "Run as administrator."</li>
+     </ul>
+</p>
+<p>
+Next, we are going to register PHP from within IIS, making the web server aware PHP exists on the computer.
+
+<ul>
+  <li>Double click PHP Manager > Register new PHP version and select the PHP folder you made in step 5 > php-cgi > Open > OK. </li>
+</ul>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/DExwFsE.png" width="80%" alt="Installing PHP"/>
 
 
 
