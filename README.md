@@ -11,7 +11,7 @@
 
 ##  Technologies and Environments Used
 
-- **Microsoft Azure** – Virtual Machines / Compute
+- **Microsoft Azure** – Virtual Machines / Computer
 - **Remote Desktop Protocol (RDP)**
 - **Internet Information Services (IIS)**
 - **PHP, MySQL**
