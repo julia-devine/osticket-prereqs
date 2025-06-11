@@ -79,7 +79,7 @@ Once your virtual machine has been created you can remotely connect to it.
 <ul>
 <li>First, copy this link into the browser on the virtual machine you created in step 1. Your browser will ask if you would like to download this file, click Download anyway.</li>
 <li>Once the file is downloaded, click the manila folder in the top right.</li>
-<li>Right click the file named "osTicket-Installation-Files" and extract the file to your desktop</li>
+<li>Right click the file named osTicket-Installation-Files and extract the file to your desktop</li>
 </ul>
 </p>
 <p align="center">
