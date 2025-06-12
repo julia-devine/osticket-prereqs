@@ -185,9 +185,9 @@ Next, we are going to register PHP from within IIS, making the web server aware 
 </ul>
 </p>
 <p align="center">
-  <img src="https://i.imgur.com/DExwFsE.png" width="80%" alt="Installing PHP"/>
+  <img src="https://i.imgur.com/DExwFsE.png" width="80%" alt="Installing PHP"/p>
 <p>
-Finally, we are going to reload the web server.
+  Finally, we are going to reload the web server.
   <ul>
     <li>On the left side of the screen click osticket-vm (osticket-vm\Juliadevine). (The name of your vm will vary)</li>
     <li>On the right side of the screen click stop. Once it has fully stopped click start.</li>
@@ -195,10 +195,24 @@ Finally, we are going to reload the web server.
 </p>
 <p align="center">
   <img src="https://i.imgur.com/8sJSUs9.png" width="80%" alt="Installing PHP"/>
-    <li></li>
+</p>
+
+---
+
+### Step 8: Install osTicket v1.15.8
+<p>
+  <ul>
+    <li>Back in the osTicket-Installation-Files folder unzip the osTicket-v1.15.8.zip folder.</li>
+    <li>Right click the manila folder in your taskbar at the bottom of your screen and select file explorer to open a new window. </li>
+    <li>On the left side of the window select Windows (C:) > wwwroot, and copy the upload folder from the osTicket-v1.15.8 folder into c:\inetpub\wwwroot.</li>
+  </ul>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/lUXmYRE.png" width="80%" alt="Installing PHP"/p>
+  <ul>
+    <li>Within c:\inetpub\wwwroot, Rename the upload folder to osTicket</li>
+    <li>Follow Step 7 to reload IIS.</li>
   </ul>
 </p>
 
 
-
----
