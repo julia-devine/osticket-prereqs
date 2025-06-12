@@ -204,7 +204,7 @@ Next, we are going to register PHP from within IIS, making the web server aware 
   <ul>
     <li>Back in the osTicket-Installation-Files folder unzip the osTicket-v1.15.8.zip folder.</li>
     <li>Right click the manila folder in your taskbar at the bottom of your screen and select file explorer to open a new window. </li>
-    <li>On the left side of the window select Windows (C:) > wwwroot, and copy the upload folder from the osTicket-v1.15.8 folder into c:\inetpub\wwwroot.</li>
+    <li>On the left side of the window select Windows (C:) > inetpub > wwwroot, and copy the upload folder from the osTicket-v1.15.8 folder into c:\inetpub\wwwroot.</li>
   </ul>
 </p>
 <p align="center">
@@ -215,4 +215,17 @@ Next, we are going to register PHP from within IIS, making the web server aware 
   </ul>
 </p>
 
+---
+
+### Step 9: Enable Extensions
+<p>
+First, we will browse to the osTicket site to ensure it loads properly and no mistakes have been made.
+  <ul>
+    <li>Within IIS Manager, select PHP Manager</li>
+    <li>On the left side of the window select the drop down for osTicket-vm(osticket-vm\Juliadevine) > Sites drop down > Default Web Site drop down > and select osTicket</li>
+    <li>On the right side of the window click Browse*:80 (http)</li>
+  </ul>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/skThztQ.png" width="80%" alt="Installing PHP"/p>
 
