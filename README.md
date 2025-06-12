@@ -228,4 +228,8 @@ First, we will browse to the osTicket site to ensure it loads properly and no mi
 </p>
 <p align="center">
   <img src="https://i.imgur.com/skThztQ.png" width="80%" alt="Installing PHP"/p>
-
+<p>
+This is what you should see pop up.
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/JTFOFDT.png" width="80%" alt="Installing PHP"/p>
