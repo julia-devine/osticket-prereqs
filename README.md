@@ -249,3 +249,32 @@ To enable an extension, select the desired disabled extension and click Enable i
 <p>
 Lastly, refresh the osTicket page in your browser. All extensions, except the bottom two, should have a green check mark next to them.
 </p>
+
+---
+
+### Step 10: Rename and Assign Permissions to ost-sampleconfig.php
+<p>
+  <ul>
+    <li>Open file explorer and select Windows (C:) > inetpub > wwwroot > osTicket > include</li>
+    <li>Locate ost-sampleconfig.php and rename it to ost-config.php. You can do this by right clicking on the file and clicking Rename.</li>
+    <li>Next, right click the ost-config.php file and select Properties > Security > Advanced > Disable inheritance > Remove all inherited    permissions from this object.</li>
+  </ul>
+</p>
+<p>
+Now we are going to add a new permission.
+</p>
+<p>
+  <ul>
+    <li>Click Add > Select a principal</li>
+    <li>In the box under "Enter the object name to select (examples):," type "Everyone" and click Check Names to the right of that box. For the purpose of this tutorial, this will give access to all users.</li>
+    <li>Click OK and check the Full control box, then click OK.</li>
+  </ul>
+Your screen should look like this:
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/1DYv1TP.png" width="80%" alt="Installing PHP"/p>
+<p>
+Click Apply > OK > OK
+</p>
+
+
