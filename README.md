@@ -233,3 +233,19 @@ This is what you should see pop up.
 </p>
 <p align="center">
   <img src="https://i.imgur.com/JTFOFDT.png" width="80%" alt="Installing PHP"/p>
+<p>
+Now we are going to enable some extensions. Back in IIS go to Sites > Default Site > osTicket, double click PHP Manager and select Enable or disable an extension.
+  <ul>
+    <li>Enable: php_imap.dll</li>
+    <li>Enable: php_intl.dll</li>
+    <li>Enable: php_opcache.dll</li>
+  </ul>
+To enable an extension, select the desired disabled extension and click Enable in the top right corner of your screen. Repeat these steps for each extension.
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/4SBbyog.png" width="80%" alt="Installing PHP"/p>
+<p align="center">
+  <img src="https://i.imgur.com/aC1Cn7B.png" width="80%" alt="Installing PHP"/p>
+<p>
+Lastly, refresh the osTicket page in your browser. All extensions, except the bottom two, should have a green check mark next to them.
+</p>
